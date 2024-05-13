@@ -1,0 +1,395 @@
+<!-- Codigo para blokear adblock inicio --> 
+ 
+    <style type='text/css'> 
+/* Animation */ 
+@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}} 
+@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}} 
+/* Say Hi to Adblock */ 
+#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s} 
+#arlinablock .header{margin:0 0 150px 0} 
+#arlinablock .inner{background:#e3482d;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:40px;border-radius:5px;margin:7% auto 2% auto;animation:rubberBand 1s} 
+#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s} 
+#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none} 
+#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none} 
+#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px} 
+#arlinablock .fixblock div{display:none} 
+#arlinablock .fixblock div.active{display:block} 
+#arlinablock ol{margin-left:20px} 
+@media(max-width:768px){#arlinablock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}} 
+</style> 
+<script type='text/javascript'> 
+//<![CDATA[ 
+// Say Hi to Adblock 
+function downloadJSAtOnload(){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload; 
+//]]> 
+</script> 
+<!-- Codigo para blokear adblock fin -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+    <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Slick Slider -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/rtqs2oqbtm3n61n/header.css">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/6x5sblje98moohw/overlay.css">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/mko2j64lxgqfr5u/slider.css">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/b49b1ftas3cm42s/disney.css">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/y41b3lf2ercb3c1/film.css">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/qrv001ri2pdr5b1/footer.css">
+    <link rel="shortcut icon" href="img/icons/logo.svg" type="image/x-icon">
+    <title>PlantillasPlus</title>
+<title>TechyMedies</title>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+<meta content='max-image-preview:large' name='robots' />
+<link href="https://dl.dropboxusercontent.com/s/3xfivjr13l56pem/style.css" rel="stylesheet">
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<link href='https://use.fontawesome.com/releases/v5.3.1/css/all.css' rel='stylesheet' />
+</head>
+<body class='oneGrd MN-2 mobS hdMn bD onIndx onHm' id='mainCont'>
+<script>/*<![CDATA[*/ (localStorage.getItem('mode')) === 'darkmode' ? document.querySelector('#mainCont').classList.add('drK') : document.querySelector('#mainCont').classList.remove('drK') /*]]>*/</script>
+<input class='prfI hidden' id='offPrf' type='checkbox' />
+<input class='navI hidden' id='offNav' type='checkbox' />
+<div class='mainWrp'>
+<div class='no-items section' id='notif-widget'></div>
+
+</div></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- Required meta tagss for new branch -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="ss" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/jytobnkg63t2mrz/landing.css">
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/0cl9037hucnh0re/responsive.css">
+    <title>Hello, world!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+        <div style="position: relative;">
+    <!-- Header -->
+    <header class="header">
+       
+    <!-- /header -->
+
+
+    
+
+
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+                  </div>
+                </div>  
+            </div>
+        </div>
+        
+            
+<div class="poster">
+        <div class="main movies-rows">
+            <h3 class="list-title">lo recomendado para ti</h3>
+<div class="scrollmenu">
+<a href="go:megan"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjR1xHpjV-VC-6FQM4KdZBDpH9qruCCCATIQ&usqp=CAU"></div>
+<a href="go:troll"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7RoZemkXO3lK9G4xJwfk8kwURFf66ivSVrQ&usqp=CAU"></div>
+<a href="go:depre22"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl61e0XWINzPg0Tqg2s21dW2sVEd4bTsUrkA&usqp=CAU"></div>
+<a href="go:jurasica22"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiv7nwR4UyZ017UZfgzCzYEe7Urpeyep_WQ&usqp=CAU"></div>
+<a href="go:toro1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV-oeBtouN6K0C7ZFt31f_Gs_fDpNg_0MAZg&usqp=CAU"></div>
+<a href="go:batman2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1fo_fk7qhOxYa_-tyLS7hxjt-o5300OoI0A&usqp=CAU"></div>
+<a href="go:doctor1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREh6Q81rrpiWtuBpJXDiYMes1Eb5CDGHnXBw&usqp=CAU"></div>
+<a href="go:vivo"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB4qQ68xiNZ0k0qpCSo0ZJOl99DvV3xRCIjQ&usqp=CAU"></div>
+<a href="go:norman"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDI4JaszetTFc1i9-7hR-MYkuSHCKF6dg0A&usqp=CAU"></div>
+<a href="go:garra"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF1kG8p5U3P9XMQGKw3YIKPSrHMgL7nGL03w&usqp=CAU"></div>
+<a href="go:infinite"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9N5EwbfiDt0B3NBjxPbkTtbK_lqvRCZOqCg&usqp=CAU"></div>
+<a href="go:sinman"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbo4WfmyTA13HOnUiTraeGNHUaRwwfB8nog&usqp=CAU"></div>
+<a href="go:contractor"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxAJtB56DO30FNyrmU-VEz50DO2eH9EjhjA&usqp=CAU"></div></a>
+
+</div></div>
+<div class="poster">
+        <div class="main movies-rows">
+            <h3 class="list-title">Ciencia ficción y acción </h3>
+<div class="scrollmenu">
+<a href="go:adam"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWuxX8OWku5ejKJ7-W8nE9F1Ek_zGsq7Dfg&usqp=CAU"></div>
+<a href="go:lazarus"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJ-rdb5AxENup6-w-2teiDakPkVdVg-rH1A&usqp=CAU"></div>
+<a href="go:detec"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAMrD-iNKFQpTtvX8Hqy53CwEkjFvGfN2vw&usqp=CAU"></div>
+<a href="go:narvik"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB0NbhksI7Bs-ilTdOKQT5NW6jht2nVujMQ&usqp=CAU"></div>
+<a href="go:lastum"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmNHrJXC7PhK3sV4EIdnzL2spzRpCcPKwgw&usqp=CAU"></div>
+<a href="go:aves"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKAe_cUXXMeyE9GLQTFcOZNxuxw8eQn4mr_w&usqp=CAU"></div>
+<a href="go:panter"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wNYAKnFpqV8I2_fE8ZxIUVv5Q2uR1JZdqw&usqp=CAU"></div>
+<a href="go:mediado"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWS2CdzdYOs1aWA52yFuqjifGxpiNgq33IQ&usqp=CAU"></div>
+<a href="go:tren"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk58EnkodKcBB6wOiabImedh9MFLK8EhIBQQ&usqp=CAU"></div>
+<a href="go:hellb19"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3bOhaC44cPSsGL2hX0F67__70byVU4-yZYw&usqp=CAU"></div>
+<a href="go:honest"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcI_6XuqjnqC_ggR-8Fa-8PkNzd53LN6qKyg&usqp=CAU"></div>
+<a href="go:rapi1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpnHm7Vl26szgp2gWXe8LA5EZAmus2qYwuZQ&usqp=CAU"></div>
+<a href="go:rapi2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYvRZdxYkaNy_FdQu18I-EPDssoglwmZ36w&usqp=CAU"></div>
+<a href="go:rapi3"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1FB-5rubzIre0aK-GqqVJ-U15CpGcAVYvAQ&usqp=CAU"></div>
+<a href="go:rapi4"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlktBtbkS1t1ZR7m6m30g6h2FMEBI0wo_Isg&usqp=CAU"></div>
+<a href="go:rapi5"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzTZCCFvXZ0VUFv197bjHCkB8Gj_yprCWenQ&usqp=CAU"></div>
+<a href="go:rapi6"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9G4qxO2srxx8alFmoKN5aVmsUkmGo_JgNtQ&usqp=CAU"></div>
+<a href="go:rapi7"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNerhvroGBjUF3LjBY3TNcuazSRV1qFdmOHA&usqp=CAU"></div>
+<a href="go:rapi8"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3CoTuIf7UTsHviOE1DTYh2jENOF__S3C2qQ&usqp=CAU"></div>
+<a href="go:rapi9x9"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhIzJ7nuRAurNO5n5bhk1sq_8nMGhnyLRNiQ&usqp=CAU"></div>
+<a href="go:rapi9"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJMIV9xun2YiPuG5W67ddF5hwA5oKFybYVA&usqp=CAU"></div>
+<a href="go:indenpe"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJWKBspWH-6cPtsDcpogQKCjATNd7b6-3NkA&usqp=CAU"></div>
+<a href="go:juma17"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDusFhubPT-Muqns4vWCBgH8dVS_zYWk2lw&usqp=CAU"></div>
+<a href="go:justi17"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9f-aD5qUNyn8jLVWaJMiiJLdgPpWzyEzCQ&usqp=CAU"></div>
+<a href="go:mexzom"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWcEhT6_eiEmWMrG_otmgsMvcXMgeQ2iiPLw&usqp=CAU"></div>
+<a href="go:inva20"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsbtcdJ25W5v_HrbIyiHYhyfs2LDbSE9oYYQ&usqp=CAU"></div>
+<a href="go:almanac"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjZueL_BEmmshK0h6-5fL-2AaQ4Yh10Qljw&usqp=CAU"></div>
+<a href="go:ripd2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DDoBPpZRVy6uWduwc9CHMZUD6LdAblJVLw&usqp=CAU"></div>
+<a href="go:samari"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzPFVD5QO-EVy4MLfVYsqJ0jsghsGiqtHuTA&usqp=CAU"></div>
+<a href="go:perfec"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzy0UhG3lGxqWHsN2SFL0148BqMXIlrLawmw&usqp=CAU"></div>
+<a href="go:tomor"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5ROKQIUw9i6jOuDZVNKlHAk0hBXDQFTTCQ&usqp=CAU"></div>
+<a href="go:calibro"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQItJZ8R2Vu93im5y91QzzdV-_hbi4_r_pWJA&usqp=CAU"></div>
+<a href="go:interl"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLxEu_dQAeyQXLKytafwnhFuHmwhDKZg4gFQ&usqp=CAU"></div>
+<a href="go:noche"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOdibhxuE0TqBeQjt01a-h890apPk28TN0w&usqp=CAU"></div>
+<a href="go:ever"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBvrhXHpQgNMDATTdxA6WydpPS1_e2RWTKA&usqp=CAU"></div>
+<a href="go:mariya"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyFwgmOvOx-jR2kGpkG9W72N3K4dS0GUBfoA&usqp=CAU"></div>
+<a href="go:novedad"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5O9PMHXjSO3D-5d0LiG0Mi0DYOuz8ntRBg&usqp=CAU"></div>
+<a href="go:ofwar"><div class="card">
+<img class="xaviec" src="https://hbomax-images.warnermediacdn.com/images/GYuE6CgpXeL-dDAEAAAAE/tileburnedin?size=1280x720&partner=hbomaxcom&v=d10ae40b8679ac932f991b8e03f50d27&host=art-gallery.api.hbo.com&language=en-us&w=1280"></div>
+<a href="go:ultimo"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOvtCW2zjfL5y-moVptICGY3HhWt7o_IlHw&usqp=CAU"></div>
+<a href="go:sangre"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLx0kjjoof_deaMt73IuQF7SV1ewm7RAIag&usqp=CAU"></div>
+<a href="go:depre22"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl61e0XWINzPg0Tqg2s21dW2sVEd4bTsUrkA&usqp=CAU"></div>
+<a href="go:jurasica22"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiv7nwR4UyZ017UZfgzCzYEe7Urpeyep_WQ&usqp=CAU"></div>
+<a href="go:toro1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV-oeBtouN6K0C7ZFt31f_Gs_fDpNg_0MAZg&usqp=CAU"></div>
+<a href="go:batman2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1fo_fk7qhOxYa_-tyLS7hxjt-o5300OoI0A&usqp=CAU"></div>
+<a href="go:doctor1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREh6Q81rrpiWtuBpJXDiYMes1Eb5CDGHnXBw&usqp=CAU"></div>
+<a href="go:vivo"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB4qQ68xiNZ0k0qpCSo0ZJOl99DvV3xRCIjQ&usqp=CAU"></div>
+<a href="go:norman"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDI4JaszetTFc1i9-7hR-MYkuSHCKF6dg0A&usqp=CAU"></div>
+<a href="go:garra"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF1kG8p5U3P9XMQGKw3YIKPSrHMgL7nGL03w&usqp=CAU"></div>
+<a href="go:infinite"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcNywNbPooRdKT7hYlCVhaRavRfVfUCxsa7g&usqp=CAU"></div>
+<a href="go:sinmam"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbo4WfmyTA13HOnUiTraeGNHUaRwwfB8nog&usqp=CAU"></div>
+<a href="go:contractor"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxAJtB56DO30FNyrmU-VEz50DO2eH9EjhjA&usqp=CAU"></div>
+<a href="go:A1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgObfrmZ5Pr_zSLHmXO4VF9TAa4RpJH9HkNw&usqp=CAU"></div>
+<a href="go:A8"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfy-vscan2902psOMsSZBOsAqPnDWuWaJX8w&usqp=CAU"></div>
+<a href="go:A2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZaRa4lpAjxe-1MyN3Sy4ASnfnnkNzbtybyr-h3UGakUj-KYjy"></div>
+<a href="go:A3"><div class="card">
+<img class="xaviec" src="https://es.web.img2.acsta.net/pictures/21/08/31/16/41/4145554.jpg"></div>
+<a href="go:A4"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFZFggoY6oTOba-NXPmhfvtS4xSx4_2b9bw&usqp=CAU"></div>
+<a href="go:A5"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxmiVpXlQOOjiv9PC0j3eKQTmpHmyUXrM4fA&usqp=CAU"></div>
+<a href="go:A6"><div class="card">
+<img class="xaviec" src="https://mx.web.img3.acsta.net/pictures/17/12/27/17/56/4700033.jpg"></div>
+<a href="go:A7"><div class="card">
+<img class="xaviec" src="https://es.web.img2.acsta.net/pictures/19/05/27/12/05/3089180.jpg"></div>
+<a href="go:A8"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfy-vscan2902psOMsSZBOsAqPnDWuWaJX8w&usqp=CAU"></div>
+<a href="go:A9"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSOJAX2A7HOH24xQYyUjz6rYZ1U23EfXiUZLZfFmHMznpFNxyIY"></div>
+<a href="go:A10"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSCxI6sNpIwAXSsY5zYhaduo1gvxo4bqohTiaDQYWGl1rDvDDF"></div>
+<a href="go:A11"><div class="card">
+<img class="xaviec" src="https://es.web.img2.acsta.net/pictures/14/02/26/13/54/249141.jpg"></div>
+<a href="go:A12"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5Ld2OKFdmA3yZJM0jSsUHY1JrKYM6wpe7jKWaA2BFMHZNzMD"></div>
+<a href="go:A13"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHTDE-LhctSlsf7sHoxL5qTK6GoUbW3P16OV071q-POx6Gb5r4xj0WP0&s=10"></div>
+<a href="go:eternals"><div class="card">
+<img class="xaviec" src="https://es.web.img3.acsta.net/pictures/21/08/19/10/48/2250523.jpg"></div>
+<a href="go:proyec"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLolZGk7jfBD5hwxI7_2a81l3M3PBLZO6NcA&usqp=CAU"></div></a>
+
+</div></div>
+<div class="poster">
+        <div class="main movies-rows">
+            <h3 class="list-title">Infantiles</h3>
+<div class="scrollmenu">
+<a href="go:gato1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNSfXkGPUwbIcMbBUJcLBfDushdrRlSyNEA&usqp=CAU"></div>
+<a href="go:popal"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmus-jzR1pn0zeZv7QVmgR-q0L0Ww-DG5Nyg&usqp=CAU"></div>
+<a href="go:canta 2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqz07iZVw-0hHMS-85gmHGqGZGFbOaOURm7A&usqp=CAU"></div>
+<a href="go:sonic 2"><div class="card">
+<img class="xaviec" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0CF012197C23B558C221545A166412C4B1546482A7234F6F5A828D9298A41B0E/scale?width=1200&aspectRatio=1.78&format=jpeg"></div>
+<a href="go:la era 2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBo5tll0LNnzgcR6xSwvJR8uHGkH7fxbDOg&usqp=CAU"></div>
+<a href="go:encantog"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_QFUqf81ps8I6PUUxNw_5_mCBxrhj_6P3w&usqp=CAU"></div>
+<a href="go:tiposmalos"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThP9fq2xuvWTClzJPFaQK-wMIEHOamB_c8fA&usqp=CAU"></div>
+<a href="go:y la bruja"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPxpjjyBXYGAFhL-ZzQXDTdjd0CTZN1wg4Yw&usqp=CAU"></div></a>
+
+</div></div>
+<div class="poster">
+        <div class="main movies-rows">
+            <h3 class="list-title">Terror</h3>
+<div class="scrollmenu">
+<a href="go:megan"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjR1xHpjV-VC-6FQM4KdZBDpH9qruCCCATIQ&usqp=CAU"></div>
+<a href="go:jeesp3"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQ1wkQGOsRKhFkGC-IruJ9VlhchXTJl3q6Q&usqp=CAU"></div>
+<a href="go:jeesp1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScwbPwaTK7VBXQMSwH0Sa6Byxi6JR5fL6gpQ&usqp=CAU"></div>
+<a href="go:dead"><div class="card">
+<img class="xaviec" src="https://cdn.playpilot.tech/a487cf9299fc11ed9f170a58a9feac02/src/img?optimizer=image&quality=75&width=1280&aspect_ratio=16%3A9"></div>
+<a href="go:huerfa"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2WITM_eH2FQkXhQ-pbmgOyCMh0QmSiKjjTQ&usqp=CAU"></div>
+<a href="go:vertigo"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx0rzxvdTTuevgXBrFeBs6kKQhan3NMqNwkg&usqp=CAU"></div>
+<a href="go:lastrite"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaYiEytw_NG_kRgjbOrbaHZ0nV-F-rpAdAmg&usqp=CAU"></div>
+<a href="go:juego1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIkUDljbG2YUN47H-ZITo4ps5qejQL_wiK9EZBZIDbB4W2EV1G"></div>
+<a href="go:juego2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAPrNYq3ZUFLKzwbEp1uD-QVSjpkbIKAjY_jSu34iexlEPWbqb"></div>
+<a href="go:juego3"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQxrqbR_5l8x7tC1z9DLtpDScLdpHMcWgm2Dqe7EtN54WERjGZ"></div>
+<a href="go:juego4"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzfxtFmNmkkDKinbpRE-xaTqRAVk7drhzsrIGgrVQacmrl8-Mr"></div>
+<a href="go:juego5"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj24DgZotPYJS_AIW_sGY9DkuHkyzl-FatP50s84ft2ukQQ31G"></div>
+<a href="go:juego6"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwEvTCxzsxJrocsDiVwqABNMMFTcDTm0qW-fl8OWR0deq0qzl-"></div>
+<a href="go:juego7"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6LbP9jMDbqTwKfD44d5UE0UAdnD_GLth9nYRzXrNLsRP-XhmX"></div>
+<a href="go:juego8"><div class="card">
+<img class="xaviec" src="https://es.web.img3.acsta.net/pictures/17/10/17/15/37/4218287.jpg"></div>
+<a href="go:juego9"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1sJzG2LJL5E4UDXuCC2N5FtUd9-FHdZjdQ&usqp=CAU"></div>
+<a href="go:purga1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrIRIyEtNmWC2MpNkWBdZvx3nToW3w6cD1msr0PGmkg9Slv4ao"></div>
+<a href="go:purga2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyRno5s_1L-u2xuE3PgsLsFvWfKD1QQjvuDW2a_NCgbeLCAwz"></div>
+<a href="go:purga3"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_KKjrkOjoN2GPslRfLI0psJzN7_u4bG3bJIGyzudlEvxsKY-u"></div>
+<a href="go:purga4"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTlFZzz6_p0AcFkt6hiVUaj2cg9AS_5sZX5hU3tLZqJSjD31XxR"></div>
+<a href="go:purga5"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRSjpr7mkNIkKjcZqt0GMJtc007oXgMzCtGr5slW5s4VMtsPdg9"></div>
+<a href="go:tranquilo1"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrRlorjV3ooaSYkRmpB8o7lFXBY5Pif85hK6knfizxKP-ehBlVPILQh8M&s=10"></div>
+<a href="go:tranquilo2"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjQk_Jd6CvuMmg1lnREX-n_Oj9-6O3ctLrCr0T10YyPLdxi23GgfKOFMdC&s=10"></div>
+<a href="go:texas3"><div class="card">
+<img class="xaviec" src="https://es.web.img3.acsta.net/pictures/22/01/31/10/28/0410704.jpg"></div>
+<a href="go:medium"><div class="card">
+<img class="xaviec" src="https://es.web.img3.acsta.net/pictures/21/10/19/16/45/5817126.jpg"></div>
+<a href="go:la abuela"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvy4k1W0AbFgpegkfaYR-cvAsTlWoeN2Eww&usqp=CAU"></div>
+<a href="go:pasajero6"><div class="card">
+<img class="xaviec" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHktGcwk_hVax4jc6sbmIwQD2KiQpEO2xDZA&usqp=CAU"></div></a>
+
+
+
+
+</div></div>
+
+
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+                      
+              
+          </div>
+    </footer>
+</body>
+<!-- Scripts Slider JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+<script src="https://dl.dropboxusercontent.com/s/mqiacdahy41pa9a/script.js"></script>
+<script src="https://dl.dropboxusercontent.com/s/23df1zqx9um921l/scroll.js"></script>
+<script src="https://dl.dropboxusercontent.com/s/4p3mcw6viyh7kl0/slider.js"></script>
+</html>
